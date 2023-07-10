@@ -1,1 +1,9 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+:root {
+  --primary-color: #59196e;
+  --primary-color-light: #c37bd3;
+  --secondary-color: #166126;
+  --secondary-color-light: #8fb798;
+  --bar-height: 80px;
+  --default-spacing: 20px;
+}
+
