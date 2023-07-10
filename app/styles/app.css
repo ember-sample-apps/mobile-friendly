@@ -54,3 +54,19 @@ footer > a {
   color: black;
 }
 
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: var(--default-spacing);
+}
+
+.list-item {
+  border: 2px solid var(--primary-color-light);
+  padding: var(--default-spacing);
+  border-radius: 8px;
+}
+
+.list-item > h3 {
+  margin-top: 0;
+}
+
