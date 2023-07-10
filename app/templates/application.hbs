@@ -1,2 +1,17 @@
-{{page-title "MobileFriendly"}}
+{{page-title "Mobile Friendly"}}
 
+<header>
+<div class="name">
+  <img alt="phone with a smiley" src="../images/logo.svg"/> <h1>Mobile Friendly</h1>
+</div>
+<nav>
+  <LinkTo @route="index">Card list</LinkTo>
+  <LinkTo @route="photos">Photo gallery</LinkTo>
+</nav>
+</header>
+<main>
+  {{outlet}}
+</main>
+<footer>
+This ember-sample-app was made with ❤️ by <a href="https://github.com/minthamie">Anne-Greeth Schot-van Herwijnen</a>
+</footer>
